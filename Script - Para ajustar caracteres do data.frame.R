@@ -1,4 +1,4 @@
-#Ajustando a codificação de caracters do dataset
+#Ajustando a codificaÃ§Ã£o de caracters do dataset
 df = apply(dataset, 2, as.character) 
 Encoding(df) = "UTF-8"
-munibge@data = as.data.frame(df)
+dataset = as.data.frame(df)
