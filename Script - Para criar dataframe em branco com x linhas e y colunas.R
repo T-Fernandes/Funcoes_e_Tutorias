@@ -1,4 +1,4 @@
-##### Função para criar DataFrames com x lin e y colunas ####
+##### FunÃ§Ã£o para criar DataFrames com x linhas e y colunas ####
 create_empty_table <- function(num_rows, num_cols) {
   frame <- data.frame(matrix(NA, nrow = num_rows, ncol = num_cols))
   return(frame)
